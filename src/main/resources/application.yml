@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/test
+      username: root
+      password: Dzw41wlWO8xzSasyMjrTG2EnL6rHYeRpMhVIUYhq0EJ6nUxdhOpgbrV0L2ZStWzhX+dVmtTBfnBh8QD9GxRhzA==
+      filters: config
+      connect-properties:
+        config.decrypt: true
+        config.decrypt.key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAICPo2cPe96jXlzfNDGXvn4ryDjh/2+NpkBDXeqUXi+l5RwcwAm1XOaaYEzyEQebMgujCDwFOpv6e3+wscQC8j8CAwEAAQ==
